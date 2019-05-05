@@ -10,10 +10,14 @@ namespace CsharpNew
     {
         static void Main(string[] args)
         {
-            Csharp_5.GetHtmlStr(@"https://docs.microsoft.com/zh-cn/dotnet/csharp/async");
-            
+            // Csharp_5.GetHtmlStr(@"https://docs.microsoft.com/zh-cn/dotnet/csharp/async");
 
-            Console.WriteLine(Csharp_6.GetFullName("Gene", "WANG"));
+
+
+            // Console.WriteLine(Csharp_6.GetFullName("Gene", "WANG"));
+
+
+            Csharp_7.PatternMatching();
             Console.ReadKey();
         }
     }
