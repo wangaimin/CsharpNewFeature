@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Csharp_5.cs" />
     <Compile Include="Csharp_6.cs" />
     <Compile Include="Csharp_7.cs" />
     <Compile Include="Csharp_8.cs" />
