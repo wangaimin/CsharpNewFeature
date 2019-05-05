@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CsharpNew
 {
-    class Csharp_8
+   public static class Csharp_8
     {
     }
 }
