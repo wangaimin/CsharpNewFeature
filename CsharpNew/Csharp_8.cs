@@ -8,5 +8,9 @@ namespace CsharpNew
 {
    public static class Csharp_8
     {
+        /// <summary>
+        /// test
+        /// </summary>
+        public static void Test() {  }
     }
 }
