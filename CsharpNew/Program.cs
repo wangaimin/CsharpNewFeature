@@ -10,6 +10,9 @@ namespace CsharpNew
     {
         static void Main(string[] args)
         {
+            EncodingUTF8.HttpPost("https://www.baidu.com", "王", Encoding.UTF8, Encoding.UTF8);
+
+
             // Csharp_5.GetHtmlStr(@"https://docs.microsoft.com/zh-cn/dotnet/csharp/async");
 
 
