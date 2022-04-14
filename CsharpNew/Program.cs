@@ -12,9 +12,10 @@ namespace CsharpNew
         {
             EncodingUTF8.HttpPost("https://www.baidu.com", "王", Encoding.UTF8, Encoding.UTF8);
 
+            Csharp_5.WriteLineHtmlStr(@"http://localhost:31956/Login/jc");
 
-            // Csharp_5.GetHtmlStr(@"https://docs.microsoft.com/zh-cn/dotnet/csharp/async");
-
+            Task<string> task = Csharp_5.GetHtmlStr(@"http://localhost:31956/Login/jc");
+            Console.WriteLine($"***********Console Result:{task.Result}");
 
 
             // Console.WriteLine(Csharp_6.GetFullName("Gene", "WANG"));
